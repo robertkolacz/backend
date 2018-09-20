@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 
 const dbuser = process.env.dbuser;
 const dbpassword = process.env.dbpassword;
-const databaseUrl = '@ds149700.mlab.com:49700/blog';
+const databaseUrl = '@ds243502.mlab.com:43502/mydb';
 
 module.exports = function(app){
     mongoose.connect(`mongodb://${dbuser}:${dbpassword}${databaseUrl}`);
