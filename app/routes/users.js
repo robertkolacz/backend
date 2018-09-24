@@ -1,3 +1,4 @@
+const admin = require('firebase-admin');
 const User = require('./../models/user');
 
 /*
