@@ -1,6 +1,7 @@
 const routes = [
-    require('./signIn'),
-    require('./posts')
+    require('./posts'),
+    require('./users'),
+    require('./signIn')
 ];
 
 module.exports = function(app){
