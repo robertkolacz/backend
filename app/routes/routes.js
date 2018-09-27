@@ -1,4 +1,5 @@
 const routes = [
+    require('./signIn'),
     require('./posts')
 ];
 
